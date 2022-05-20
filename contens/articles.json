@@ -5,6 +5,8 @@
     "title": "Hypertext Markup Language (HTML)",
     "description": "HTML adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet",
     "thumbnail": "image/card.jpg",
+    "author": "Hidayah Ramadani",
+    "published_at": "20 Mei 2022",
     "content": "articles1.md"
   },
   {
@@ -12,6 +14,8 @@
     "title": "Cascading Style Sheet (CSS)",
     "description": "CSS merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam",
     "thumbnail": "image/card.jpg",
+    "author": "Hidayah Ramadani",
+    "published_at": "20 Mei 2022",
     "content": "articles2.md"
   },
   {
@@ -19,6 +23,8 @@
     "title": "Analisis Proses Bisnis (APB) ",
     "description": "Hidayah Ramadani 2015105056 APB kelas B dengan Cafe bernama Kedai Seduh ElDiamante bertempat di Klaten, Jawa Tengah",
     "thumbnail": "image/card.jpg",
+    "author": "Hidayah Ramadani",
+    "published_at": "20 Mei 2022",
     "content": "articles3.md"
   } 
 ]
