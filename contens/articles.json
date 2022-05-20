@@ -1,0 +1,24 @@
+[
+  
+  {
+    "ID":"1",
+    "title": "Hypertext Markup Language (HTML)",
+    "description": "HTML adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet",
+    "thumbnail": "image/card.jpg",
+    "content": "articles1.md"
+  },
+  {
+    "ID":"2",
+    "title": "Cascading Style Sheet (CSS)",
+    "description": "CSS merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam",
+    "thumbnail": "image/card.jpg",
+    "content": "articles2.md"
+  },
+  {
+    "ID":"3",
+    "title": "Python",
+    "description": "Python adalah bahasa pemrograman tujuan umum yang ditafsirkan, tingkat tinggi",
+    "thumbnail": "image/card.jpg",
+    "content": "articles3.md"
+  } 
+]

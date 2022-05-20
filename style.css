@@ -1,0 +1,99 @@
+
+		.cover{
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            height: 600px;
+        }       
+        .cover .masking{
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            top: 0;
+            background-color: black;
+            opacity: 0.5;
+            z-index: 0;
+        }
+        .cover .credit{
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+        }
+        .cover .social a{
+          color: rgb(11, 0, 224);
+        }
+        .cover img{
+            width: 350px;
+        }
+        .action-btn {
+          display: inline-block;
+          text-decoration: none;
+          color: black;
+          font-weight: 300;
+          background: white;
+          padding: 0.3em 1.3em;
+          border-radius: 50px;
+          margin: 1em 0;
+          transition: 0.3s;
+        }
+        .row{
+          margin-top: 100px;
+          }
+          #portofolio .bar {
+            height: 30px;
+            background-color: #fff;
+            border:1px solid #ddd;
+            margin: 5px 0 20px 0;
+          }
+          .bar .nilai {
+            height:30px;
+            background-color: #F84744;
+            display: inline-block;
+            color: #fff;
+            text-align: center;
+          }
+          .html {
+            width:100%;
+          }
+          .css {
+            width:90%;
+          }
+          .js {
+            width:80%;
+          }
+          .php {
+            width:95%;
+          }
+          .ps {
+            width:85%;
+          }
+        }
+        table,tr,td{
+          background-color: LightGoldenRodYellow ;
+          font-family: Verdana;
+          color: black;
+          border: 1px solid black;
+          padding: 5px;
+          border-collapse: collapse;
+       }
+       .h{
+          border: 8px groove yellow;
+          padding: 20px;
+       }
+       .posisi{
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: auto;
+          margin-top: auto;
+          left: 0;
+          right: 0;
+          top: 100px;
+          bottom: 0;
+       }
+       body{
+          background-image: url('images.jpg');
+          background-repeat: no-repeat;
+          background-size: 1400px auto;
+       }
+        
