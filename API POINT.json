@@ -1,0 +1,331 @@
+Users
+
+Menampilkan data user
+
+
+GET: /user
+
+response:
+[
+    {
+        "id": "",
+        "nama": "",
+        "nim": "",
+        "ket": "",
+        "foto": "",
+        "ig": "",
+        "yt": "",
+        "gh": ""
+    },
+    ...
+]
+ 
+
+
+Menampilkan data user dengan `id` tertentu
+
+
+GET: /user/[id]
+
+reponse:
+{
+        "id": "",
+        "nama": "",
+        "nim": "",
+        "ket": "",
+        "foto": "",
+        "ig": "",
+        "yt": "",
+        "gh": ""
+}
+
+
+Menambahkan data pengguna
+
+
+POST: /user
+
+data:
+{
+        "id": "",
+        "nama": "",
+        "nim": "",
+        "ket": "",
+        "foto": "",
+        "ig": "",
+        "yt": "",
+        "gh": ""
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+Edit data pengguna
+
+
+PUT: /user
+
+data:
+{
+        "id": "",
+        "nama": "",
+        "nim": "",
+        "ket": "",
+        "foto": "",
+        "ig": "",
+        "yt": "",
+        "gh": ""
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+ Menghapus data anggota
+
+
+DELETE: /user/[id]
+
+response:
+true    // if success
+false   // if failure
+
+
+
+
+Portofolio
+
+Menampilkan data portofolio
+
+
+GET: /portofolio
+
+response:
+    {
+    "id": "",
+    "porto": "",
+    "ket": "",
+    "foto": "",
+    "url": ""
+    },
+
+
+
+Menampilkan data user dengan `id` tertentu
+
+
+GET: /portofolio/[id]
+
+reponse:
+{
+    
+    "id": "",
+    "porto": "",
+    "ket": "",
+    "foto": "",
+    "url": ""
+    
+}
+
+
+Menambahkan data portofolio
+
+
+POST: /portofolio
+
+data:
+{
+     
+    "id": "",
+    "porto": "",
+    "ket": "",
+    "foto": "",
+    "url": ""
+    
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+Edit data portofolio
+
+
+PUT: /portofolio
+
+data:
+{
+     "id": "",
+    "porto": "",
+    "ket": "",
+    "foto": "",
+    "url": ""
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+
+Menghapus data portofolio
+
+
+DELETE: /portofolio/[id]
+
+response:
+true    // if success
+false   // if failure
+
+
+
+
+
+
+Artikel
+
+Menampilkan data semua artikel
+
+
+GET: /artikel
+
+response:
+[
+    {
+    "id": "",
+    "title": "",
+    "description": "",
+    "author": "",
+    "published_at": "",
+    "foto": "",
+    "url": ""
+  },
+]
+
+
+Menampilkan data artikel dengan id  tertentu
+
+
+GET: /artikel/[id]
+
+response:
+{
+    "id": "",
+    "title": "",
+    "description": "",
+    "author": "",
+    "published_at": "",
+    "foto": "",
+    "url": ""
+}
+
+
+Menambahkan artikel
+
+
+POST: /artikel
+
+data:
+{       
+    "id": "",
+    "title": "",
+    "description": "",
+    "author": "",
+    "published_at": "",
+    "foto": "",
+    "url": ""
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+#### Memperbarui artikel
+
+
+PUT: /artikel
+
+data:
+{      
+    "id": "",
+    "title": "",
+    "description": "",
+    "author": "",
+    "published_at": "",
+    "foto": "",
+    "url": ""
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+Menghapus artikel
+
+
+DELETE: /artikel/[id]
+
+response:
+true    // if success
+false   // if failure
+
+
+
+
+
+## Desain Database
+
+
+
+mermaid
+classDiagram
+    class User{
+        # id: int
+        + nama: string
+        + nim: string
+        + ket: string
+        + foto: string
+        + yt: string
+        + ig: string
+        + gh: string
+        + getAllUser()
+        + getUserById()
+        + updateUser()
+        + createUser()
+        + deleteUser()
+    },
+    
+    class Portofolio{
+        # id: int
+        + porto: string
+        + ket: string
+        + foto: string
+        + url: string
+        + getAllPortofolio()
+        + getPortofolioById()
+        + updatePortofolio()
+        + createPortofolio()
+        + deletePortofolio()
+    },
+   
+    class Artikel{
+        # id: int,
+        + title: string
+        + author: string
+        + published_at: string
+        + foto: string
+        + url: string
+        + getAllArticle()
+        + getArticleById()
+        + getArticlesByAuthor()
+        + updateArticle()
+        + createArticle()
+        + deleteArticle()
+    }
+
